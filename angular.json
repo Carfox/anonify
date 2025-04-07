@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tesis-frontend": {
+    "anonify": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/tesis-frontend",
+            "outputPath": "dist/anonify",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "tesis-frontend:build:production"
+              "buildTarget": "anonify:build:production"
             },
             "development": {
-              "buildTarget": "tesis-frontend:build:development"
+              "buildTarget": "anonify:build:development"
             }
           },
           "defaultConfiguration": "development"
